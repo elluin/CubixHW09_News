@@ -27,11 +27,11 @@ class NewsViewModel @Inject constructor(
     var newsUiState: NewsUiState by mutableStateOf(NewsUiState.Init)
 
 
-    fun getNews() {
+    fun getNews(country: String, keyword: String) {
         newsUiState = NewsUiState.Loading
         viewModelScope.launch {
             newsUiState = try {
-                val result = newsAPI.getNews("hu",
+                val result = newsAPI.getNews(country, keyword,
                     "3337a896861a4234bf1ca9f2bab6f4ba")
                 NewsUiState.Success(result)
             } catch (e: Exception) {
