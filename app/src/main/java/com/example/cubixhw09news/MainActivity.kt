@@ -1,4 +1,4 @@
-package com.example.cubixhw09_news
+package com.example.cubixhw09news
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,8 +7,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.example.cubixhw09_news.ui.screen.NewsScreen
-import com.example.cubixhw09_news.ui.theme.CubixHW09_NewsTheme
+import com.example.cubixhw09news.ui.screen.NewsScreen
+import com.example.cubixhw09news.ui.theme.CubixHW09_NewsTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 

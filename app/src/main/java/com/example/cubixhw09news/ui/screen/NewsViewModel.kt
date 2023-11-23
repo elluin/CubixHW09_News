@@ -1,12 +1,12 @@
-package com.example.cubixhw09_news.ui.screen
+package com.example.cubixhw09news.ui.screen
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.cubixhw09_news.data.NewsResult
-import com.example.cubixhw09_news.network.NewsApi
+import com.example.cubixhw09news.data.NewsResult
+import com.example.cubixhw09news.network.NewsApi
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

@@ -1,4 +1,4 @@
-package com.example.cubixhw09_news
+package com.example.cubixhw09news
 
 import org.junit.Test
 

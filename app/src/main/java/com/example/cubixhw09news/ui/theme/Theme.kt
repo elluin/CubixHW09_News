@@ -1,4 +1,4 @@
-package com.example.cubixhw09_news.ui.theme
+package com.example.cubixhw09news.ui.theme
 
 import android.app.Activity
 import android.os.Build

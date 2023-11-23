@@ -1,4 +1,4 @@
-package com.example.cubixhw09_news.ui.screen
+package com.example.cubixhw09news.ui.screen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -25,8 +25,8 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.cubixhw09_news.data.Article
-import com.example.cubixhw09_news.data.NewsResult
+import com.example.cubixhw09news.data.Article
+import com.example.cubixhw09news.data.NewsResult
 
 @Composable
 fun NewsScreen(

@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cubixhw09_news"
+    namespace = "com.example.cubixhw09news"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.cubixhw09_news"
+        applicationId = "com.example.cubixhw09news"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

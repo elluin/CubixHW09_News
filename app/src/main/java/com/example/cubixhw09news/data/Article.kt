@@ -1,4 +1,4 @@
-package com.example.cubixhw09_news.data
+package com.example.cubixhw09news.data
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

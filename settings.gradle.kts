@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CubixHW09_News"
+rootProject.name = "CubixHW09News"
 include(":app")
  
